@@ -3,6 +3,7 @@
     font-family:  sans-serif;
 }
 
+
 /* navbar */
 
 
@@ -98,3 +99,22 @@
     border-color: #034ac1 !important;
     box-shadow: unset !important;
 }
+
+
+@media screen and (max-width: 420px) {
+    .google {
+        width: 100% !important;
+        padding: 1em 1em;
+       
+    }
+    .formm {
+        width: 100% !important;
+        padding: 1em 0px;
+       
+    }
+    .log {
+        width: 100% !important;
+        padding: 1em 0px;
+       
+    }
+  }
